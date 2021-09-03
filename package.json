@@ -2,13 +2,6 @@
   "name": "menu-flower",
   "version": "0.1.1",
   "private": true,
-  "build": {
-    "appId": "com.exhale.menu_flower",
-    "publish": {
-      "provider": "github",
-      "token": "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"
-    }
-  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
