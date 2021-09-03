@@ -1,7 +1,14 @@
 {
   "name": "menu-flower",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
+  "build": {
+    "appId": "com.exhale.menu_flower",
+    "publish": {
+      "provider": "github",
+      "token": "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"
+    }
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -14,7 +21,9 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "core-js": "^2.6.5",
+    "core-js": "^3.17.2",
+    "electron-log": "^4.4.1",
+    "electron-updater": "^4.3.9",
     "lodash": "^4.17.21",
     "tailwindcss": "^2.2.9",
     "vue": "^2.6.10"
